@@ -25,16 +25,4 @@ public class Chunk {
     public String getHash() {
         return hash;
     }
-    public void setData(byte[] data) {
-        this.data = data;
-    }
-    public void setHash(String hash) {
-        this.hash = hash;
-    }
-    public void setIndex(int index) {
-        this.index = index;
-    }
-    public void setFileId(int fileId) {
-        this.fileId = fileId;
-    }
 }
