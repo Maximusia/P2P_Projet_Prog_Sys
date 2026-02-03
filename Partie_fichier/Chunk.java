@@ -7,10 +7,10 @@ public class Chunk {
     private final String hash;
 
     public Chunk(int fileId, int index, byte[] data, String hash) {
-        this.fileId = fileId;
-        this.index = index;
-        this.data = data;
-        this.hash = hash;
+        this.fileId = fileId;       // ID du fichier auquel appartient le chunk
+        this.index = index;         // position dans le fichier
+        this.data = data;          // contenu reel
+        this.hash = hash;           // securite
     }
 
     public int getFileId() {
